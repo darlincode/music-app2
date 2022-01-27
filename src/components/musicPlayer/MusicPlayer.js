@@ -14,7 +14,7 @@ export default function MusicPlayer() {
 
   return (
     <div>
-      <Button onClick={() => toggleSongPlaying()}>Play shit</Button>
+      <Button onClick={() => toggleSongPlaying()}>Play now</Button>
     </div>
   )
 }

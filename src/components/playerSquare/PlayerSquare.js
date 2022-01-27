@@ -13,15 +13,15 @@ export default function PlayerSquare(props) {
         justifyContent: "center",
         "& > :not(style)": {
           m: 1,
-          width: "90vh",
-          height: "50vh",
+          width: "70vh",
+          height: "60vh",
         },
       }}
     >
       <Paper
         elevation={10}
-        variant="outlined"
-        sx={{ width: "40vh", backgroundColor: "#f2f2f2" }}
+        variant="elevation"
+        sx={{ width: "40vh", backgroundColor: "#f2f4f2" }}
       >
         <ArtistInfo />
         <MusicPlayer />

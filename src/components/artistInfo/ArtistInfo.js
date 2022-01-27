@@ -7,7 +7,7 @@ import Typography from "@mui/material/Typography"
 export default function ArtistInfo() {
   return (
     <Grid container direction={"row"} justifyContent={"space-evenly"}>
-      <Grid id="artist-image" item xs={5} sx={{ marginTop: "10px" }}>
+      <Grid id="artist-image" item xs={5} sx={{ marginTop: "12px" }}>
         <img src={bernie} style={{ width: "50%", objectFit: "cover" }} />
       </Grid>
       <Grid
